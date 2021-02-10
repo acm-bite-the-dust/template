@@ -28,9 +28,6 @@ void Tarjan(int u) {
             ins[tmp] = false;
             S.pop();
         } while (tmp != u);
-        col[u] = num_color;
-        ins[u] = false;
-        S.pop();
     }
 }
 
