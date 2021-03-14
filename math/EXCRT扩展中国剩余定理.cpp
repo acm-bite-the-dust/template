@@ -1,4 +1,4 @@
-//x % A[i] = B[i] O(nlogn)
+//x % A[i] = B[i] O(nlogn) x为最小解 x + k * lcm都可行
 #include <bits/stdc++.h>
 
 using namespace std;
