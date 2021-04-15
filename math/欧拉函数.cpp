@@ -25,7 +25,7 @@ void init() {
             phi[i] = i - 1;
         }
         for (int p : prime) {
-            if (1ll * i * p > N) break;
+            if (1ll * i * p >= N) break;
             int now = i * p;
             isprime[now] = false;
             if (i % p == 0) {
